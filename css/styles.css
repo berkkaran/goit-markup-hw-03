@@ -1,0 +1,139 @@
+.page-header {
+  width: 1440px;
+  height: 72px;
+  background-color: #e7e9fc;
+}
+body {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+}
+.page-logo-title {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.313em;
+  letter-spacing: 3%;
+  text-decoration: none;
+}
+.page-logo-title2 {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.313em;
+  letter-spacing: 3%;
+  text-decoration: none;
+}
+
+.page-menu-list .link {
+  color: #2e2f42;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+  text-decoration: none;
+  float: left;
+  margin-left: 30px;
+}
+.page-menu-list .link:hover {
+  color: #404bbf;
+}
+.page-menu-list .link:focus {
+  color: #404bbf;
+}
+ul {
+  list-style-type: none;
+}
+.mail-phone .link {
+  color: #434455;
+  text-decoration: none;
+  float: left;
+  margin-left: 3%;
+}
+.mail-phone .link:hover {
+  color: #404bbf;
+}
+.mail-phone .link:focus {
+  color: #404bbf;
+}
+.sec1 {
+  width: 1440px;
+  height: 600px;
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.page-title1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 3.75em;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.order-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 4%;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  width: 169px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  background-color: #404bbf;
+}
+
+.page-title3 {
+  color: #2e2f42;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 2%;
+}
+.page-title2 {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.5em;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.footer-title {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.313em;
+  letter-spacing: 3%;
+  text-decoration: none;
+}
+.footer-title2 {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.313em;
+  letter-spacing: 3%;
+  text-decoration: none;
+}
+.page-footer {
+  width: 1440px;
+  height: 312px;
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+.footer-text {
+  width: 264px;
+  height: 72px;
+}
