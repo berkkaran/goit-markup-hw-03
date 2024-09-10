@@ -1,9 +1,32 @@
-.page-header {
-  width: 1440px;
+.navbar {
+  width: 1158px;
   height: 72px;
-  background-color: #e7e9fc;
+  background-color: #ffffff;
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px 50px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.navbar .nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-grow: 2;
+  gap: 50px;
+}
+.navbar .nav-links a {
+  text-decoration: none;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
 }
 body {
+  width: 100vh;
   color: #434455;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -11,7 +34,7 @@ body {
   line-height: 1.5em;
   letter-spacing: 2%;
 }
-.page-logo-title {
+.logo1 {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -20,7 +43,7 @@ body {
   letter-spacing: 3%;
   text-decoration: none;
 }
-.page-logo-title2 {
+.logo2 {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -30,53 +53,60 @@ body {
   text-decoration: none;
 }
 
-.page-menu-list .link {
+.navbar .nav-links a {
   color: #2e2f42;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
   text-decoration: none;
-  float: left;
-  margin-left: 30px;
 }
-.page-menu-list .link:hover {
+.navbar .nav-links a:hover {
   color: #404bbf;
 }
-.page-menu-list .link:focus {
+.navbar .nav-links a:focus {
+  color: #404bbf;
+}
+.contact-info {
+  display: flex;
+  align-items: end;
+  gap: 60px;
+}
+.contact-info a {
+  color: #434455;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  color: #404bbf;
+}
+.contact-info a:focus {
   color: #404bbf;
 }
 ul {
   list-style-type: none;
 }
-.mail-phone .link {
-  color: #434455;
-  text-decoration: none;
-  float: left;
-  margin-left: 3%;
-}
-.mail-phone .link:hover {
-  color: #404bbf;
-}
-.mail-phone .link:focus {
-  color: #404bbf;
-}
+
 .sec1 {
-  width: 1440px;
   height: 600px;
   background-color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  color: #ffffff;
 }
-
-.page-title1 {
+.sec1 h1 {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
-  line-height: 3.75em;
+  line-height: 1.5em;
   letter-spacing: 2%;
-  text-align: center;
+  width: 496px;
+  height: 120px;
+  margin: 0 auto;
 }
+
 .order-button {
   font-weight: 500;
   font-size: 16px;
@@ -87,15 +117,64 @@ ul {
   width: 169px;
   height: 56px;
   cursor: pointer;
+  margin-top: 100px;
 }
 
 .order-button:hover {
   background-color: #404bbf;
 }
+.sec2 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: left;
+}
+.sec2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.sec3 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f4f4fd;
+}
+.sec3 ul {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  gap: 15px;
+}
+.sec3-div {
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+  border-radius: 0px, 0px, 4px, 4px;
+}
+.sec3-div img {
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+}
+.sec3-div:hover {
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
+.sec4 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
+.sec4 ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+.sec4-div {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
+}
 .page-title3 {
   color: #2e2f42;
-
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5em;
@@ -110,6 +189,7 @@ ul {
   text-align: center;
 }
 .footer-title {
+  padding: 20px 50px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -128,12 +208,14 @@ ul {
   text-decoration: none;
 }
 .page-footer {
-  width: 1440px;
   height: 312px;
   color: #f4f4fd;
   background-color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .footer-text {
-  width: 264px;
-  height: 72px;
+  padding-left: 50px;
+  width: 320px;
+  height: 112px;
 }
