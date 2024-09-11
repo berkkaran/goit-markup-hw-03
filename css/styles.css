@@ -189,7 +189,9 @@ ul {
   padding-left: 24px;
   gap: 24px;
 }
-.section3 .container{padding: 32px 0;}
+.section3 .container {
+  padding: 32px 0;
+}
 .sec3-div {
   text-align: center;
   background-color: #ffffff;
@@ -202,7 +204,9 @@ ul {
 .sec3-div:hover {
   box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
-.sec3-div-text{text-align: center;}
+.sec3-div-text {
+  text-align: center;
+}
 .section4 {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -239,7 +243,6 @@ ul {
   font-size: 20px;
   line-height: 1.5em;
   letter-spacing: 2%;
-  
 }
 .page-title2 {
   color: #2e2f42;
