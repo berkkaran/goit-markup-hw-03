@@ -37,7 +37,6 @@ img {
   text-decoration: none;
   flex-direction: row;
   justify-content: center;
-  padding: 24px 0;
 }
 .navbar .nav-links {
   list-style-type: none;
@@ -45,7 +44,6 @@ img {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .navbar .nav-links a {
@@ -62,7 +60,7 @@ img {
 .navbar .nav-links a:focus {
   color: #404bbf;
 }
-.nav-links .menu-link {
+.navbar .menu-link {
   padding: 24px 0;
 }
 address .contact-info {
@@ -148,11 +146,7 @@ body {
 }
 
 .features .visually-hidden {
-  color: #2e2f42;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 2.5em;
-  letter-spacing: 2%;
+ display: none;
 }
 .features .features-list {
   display: flex;
@@ -235,7 +229,7 @@ body {
   padding-bottom: 120px;
 }
 .our-portfolio .portfolio-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-div {
   border-width: 0px 1px 1px 1px;
