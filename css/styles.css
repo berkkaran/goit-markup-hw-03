@@ -95,6 +95,8 @@ ul {
   justify-content: center;
   text-align: center;
   color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .sec1 h1 {
   color: #ffffff;
@@ -118,6 +120,7 @@ ul {
   height: 56px;
   cursor: pointer;
   margin-top: 100px;
+  padding: 16px, 32px, 16px, 32px
 }
 
 .order-button:hover {
@@ -149,7 +152,7 @@ ul {
   text-align: center;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
-  border-radius: 0px, 0px, 4px, 4px;
+  border-radius: 0px, 0px, 10px, 10px;
 }
 .sec3-div img {
   box-shadow: 0px 1px 1px 0px #2e2f4229;
