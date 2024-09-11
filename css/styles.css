@@ -32,7 +32,6 @@ img {
   width: 1158px;
   height: 72px;
   background-color: #ffffff;
-  padding-top: 24px;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -203,30 +202,31 @@ body {
 
 .team-members .container {
   text-align: center;
-  background-color: #ffffff;
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
   border-radius: 0px, 0px, 10px, 10px;
 }
-.member-item {
+.team-members .member-item {
   flex-basis: calc((100% - 72px) / 4);
 }
 .team-div img {
   box-shadow: 0px 1px 1px 0px #2e2f4229;
 }
 .team-div:hover {
-  box-shadow: 0px 1px 6px 0px #2e2f4214;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
 }
 .team-info .team-text {
   text-align: center;
 }
 .team-info {
+  width: 264px;
+  height: 120px;
+  background-color: #ffffff;
   padding: 32px 0;
 }
 .our-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.portfolio-item {
+.our-portfolio .portfolio-item {
   flex-basis: calc((100% - 72px) / 4);
 }
 .portfolio-div {
