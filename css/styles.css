@@ -185,6 +185,7 @@ ul {
 .section3 .section3-list {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-left: 24px;
   gap: 24px;
 }
