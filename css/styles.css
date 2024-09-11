@@ -145,7 +145,6 @@ body {
 }
 
 .features .visually-hidden {
-  visibility: hidden;
   display: none;
 }
 .features .features-list {
