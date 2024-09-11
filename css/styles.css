@@ -18,8 +18,15 @@ img {
   display: block;
 }
 .page-header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
+}
+.page-header .container {
+  width: 1158px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
 }
 .navbar {
   width: 1158px;
@@ -39,14 +46,7 @@ img {
   flex-grow: 2;
   gap: 40px;
 }
-.page-header .container {
-  width: 1158px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 15px;
-}
+
 .navbar .nav-links a {
   color: #2e2f42;
   font-weight: 500;
@@ -60,6 +60,9 @@ img {
 }
 .navbar .nav-links a:focus {
   color: #404bbf;
+}
+.menu-links {
+  padding: 24px 0;
 }
 address .contact-info {
   display: flex;
@@ -142,6 +145,8 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: left;
+}
+.features-item {
   flex-basis: calc((100% - 4 * 24px) / 4);
 }
 .features h2 {
@@ -167,7 +172,6 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #f4f4fd;
-  flex-basis: calc((100% - 4 * 24px) / 4);
 }
 .team-title2 {
   color: #2e2f42;
@@ -179,10 +183,9 @@ body {
   margin-bottom: 72px;
 }
 .team-members .container {
-  padding: 32px 0;
   border-radius: 0px 0px 4px 4px;
 }
-.team-members .team-title3 {
+.team-div2 .team-title3 {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -199,27 +202,34 @@ body {
   gap: 24px;
 }
 
-.team-div {
+.team-members .container {
   text-align: center;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   border-radius: 0px, 0px, 10px, 10px;
 }
-.team-div img {
+.member-item {
+  flex-basis: calc((100% - 4 * 24px) / 4);
+}
+.member-item img {
   box-shadow: 0px 1px 1px 0px #2e2f4229;
 }
-.team-div:hover {
+.member-item:hover {
   box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
-.team-text {
+.team-div2 .team-text {
   text-align: center;
+}
+.team-div2 {
+  padding: 32px 0;
 }
 .our-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.portfolio-item {
   flex-basis: calc((100% - 6 * 24px) / 6);
 }
-
 .portfolio-div {
   border-width: 0px 1px 1px 1px;
   border-style: solid;
