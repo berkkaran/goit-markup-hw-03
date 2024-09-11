@@ -42,7 +42,7 @@ img {
   list-style-type: none;
   display: flex;
   align-items: center;
-  flex-grow: 2;
+  justify-content: center;
   gap: 40px;
 }
 
@@ -60,15 +60,13 @@ img {
 .navbar .nav-links a:focus {
   color: #404bbf;
 }
-.menu-links {
+.nav-links .menu-link {
   padding: 24px 0;
 }
 address .contact-info {
   display: flex;
-  flex-direction: row;
-  gap: 40px;
   align-items: center;
-  justify-content: center;
+  gap: 40px;
 }
 .contact-info a {
   color: #434455;
@@ -195,7 +193,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 24px;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
 }
@@ -227,7 +224,7 @@ body {
   padding-bottom: 120px;
 }
 .our-portfolio .portfolio-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 144px) / 6);
 }
 .portfolio-div {
   border-width: 0px 1px 1px 1px;
