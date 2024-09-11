@@ -147,7 +147,11 @@ body {
 }
 
 .features .visually-hidden {
-  
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.5em;
+  letter-spacing: 2%;
 }
 .features .features-list {
   display: flex;
