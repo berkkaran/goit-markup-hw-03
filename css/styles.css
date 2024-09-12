@@ -64,7 +64,7 @@ img {
 .nav-bar .nav-links a:focus {
   color: #404bbf;
 }
-.menu-link a {
+.menu-list a {
   padding: 24px 0;
 }
 .nav-bar .page-logo {
@@ -219,7 +219,6 @@ body {
 .team-members .member-item {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
- 
 }
 
 .team-div img {
@@ -246,7 +245,7 @@ body {
   padding-bottom: 120px;
 }
 .our-portfolio .portfolio-item {
-  flex-basis: calc((100% - 96px) / 6);
+  flex-basis: calc((100% - 120px) / 6);
 }
 .portfolio-div {
   border-width: 0px 1px 1px 1px;
