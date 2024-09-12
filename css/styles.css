@@ -17,6 +17,10 @@ ul {
 img {
   display: block;
 }
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -225,8 +229,6 @@ body {
   text-align: center;
 }
 .team-info {
-  width: 264px;
-  height: 120px;
   background-color: #ffffff;
   padding: 32px 0;
   border-top-left-radius: 0px;
@@ -297,7 +299,6 @@ body {
   text-decoration: none;
 }
 .page-footer {
-  height: 312px;
   color: #f4f4fd;
   background-color: #2e2f42;
   padding: 100px 0;
