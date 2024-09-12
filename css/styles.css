@@ -245,7 +245,7 @@ body {
   padding-bottom: 120px;
 }
 .our-portfolio .portfolio-item {
-  flex-basis: calc((100% - 120px) / 6);
+  flex-basis: calc((100% - 48px) / 6);
 }
 .portfolio-div {
   border-width: 0px 1px 1px 1px;
