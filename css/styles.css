@@ -231,7 +231,7 @@ body {
   border-bottom-left-radius: 4px;
 }
 
-.portfolio-item {
+.our-portfolio .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-div {
