@@ -100,6 +100,7 @@ body {
 }
 
 .page-title {
+  max-height: 600px;
   background-color: #2e2f42;
   display: flex;
   flex-direction: column;
@@ -157,7 +158,9 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.features {
+  max-height: 344px;
+}
 .features .features-list {
   display: flex;
   align-items: center;
@@ -177,6 +180,7 @@ body {
   width: calc((100% - 72px) / 4);
 }
 .team-members {
+  max-height: 732px;
   background-color: #f4f4fd;
 }
 .team-main-title {
@@ -230,7 +234,9 @@ body {
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-
+.our-portfolio {
+  max-height: 1240px;
+}
 .our-portfolio .portfolio-item {
   width: calc((100% - 48px) / 3);
 }
@@ -290,6 +296,7 @@ body {
   text-decoration: none;
 }
 .page-footer {
+  max-height: 312px;
   color: #f4f4fd;
   background-color: #2e2f42;
   padding: 100px 0;
